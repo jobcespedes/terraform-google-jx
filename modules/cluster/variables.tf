@@ -69,6 +69,7 @@ variable "node_machine_type" {
 variable "machine_types_cpu" {
   type = map
   default = {
+    "e2-medium"  = 2
     "n1-standard-1"  = 1
     "n1-standard-2"  = 2
     "n1-standard-4"  = 4
@@ -83,6 +84,7 @@ variable "machine_types_cpu" {
 variable "machine_types_memory" {
   type = map
   default = {
+    "e2-medium"  = 4
     "n1-standard-1"  = 3.75
     "n1-standard-2"  = 7.50
     "n1-standard-4"  = 15
